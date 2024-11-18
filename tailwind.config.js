@@ -7,10 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        customGradient: "linear-gradient(to right, #4338ca, #a855f7 )", // Indigo to Purple
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        customBlue: '#4458dc'
+        customBlue: '#4458dc',
       },
     },
   },

@@ -1,7 +1,10 @@
+import Hero from "./components/Hero";
+
 export default function Home() {
   return (
-     <>
-       <h2 className="text-2xl font-bold mb-4 px-6">Welcome to My Portfolio</h2>
-     </>
+    <div className="p-8 md:p-20">
+      {/* Hero Section */}
+      <Hero/>
+    </div>
   );
 }
