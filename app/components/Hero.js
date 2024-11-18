@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className="flex justify-between" id="hero">
+    <section className="flex justify-between h-screen md:h-full items-center" id="hero">
          {/* Text Section */}
     <div className="container mx-auto text-left space-y-4 md:w-3/4">
       <div className="flex items-center w-3/5">
@@ -30,7 +30,7 @@ const Hero = () => {
       </div>
     </div>
       {/* Image Section */}
-    <div className="rounded-full bg-customGradient mr-20 hidden md:block">
+    <div className="rounded-full bg-customGradient mr-16 top-0 hidden md:block">
        <Image src={BaseInfo.profilePic} alt={BaseInfo.name} width={300} height={300} className="rounded-full object-cover"/>
     </div>
   </section>

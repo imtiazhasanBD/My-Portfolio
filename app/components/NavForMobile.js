@@ -7,7 +7,7 @@ const NavForMobile = ({ isOpen,setMenu, onClose }) => {
     if (!isOpen) return null;
 
   return (
-    <div className="fixed h-full">
+    <div className="fixed h-full z-20">
       <div className="w-full h-screen inset-0 z-[1000] bg-black opacity-70 fixed"></div>
       <div className="h-full w-4/5 sm:w-3/5 flex flex-col justify-center text-white space-y-6 fixed bg-[#0f0715] z-[1006] ">
          {
