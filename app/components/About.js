@@ -9,16 +9,16 @@ const About = () => {
     <section className="bg-white py-20 md:py-60" id="about">
          <SectionHeaderMobile headerTitle="about me"/>
         <div className="flex">  
-      <div className="flex gap-10 md:gap-28 flex-col md:flex-row">
+      <div className="flex gap-10 md:gap-24 flex-col md:flex-row">
         <div>
           <Image
             src={BaseInfo.aboutPic}
             alt="about-picture"
-            width={400}
-            height={400}
+            width={350}
+            height={350}
           />
         </div>
-        <div className="container mx-auto text-left space-y-8 md:w-3/5 md:backdrop:pr-10">
+        <div className="container text-left space-y-8 md:w-2/4 md:backdrop:pr-10">
           <h1 className="text-2xl md:text-4xl font-bold uppercase" dangerouslySetInnerHTML={{ __html: BaseInfo.aboutTitle }}>
           </h1>
           <p
