@@ -1,5 +1,5 @@
 import React from 'react'
-import { BaseInfo } from '../data/data'
+import { BaseInfo, socialMedia } from '../data/data'
 import Image from 'next/image'
 
 const Hero = () => {
@@ -28,10 +28,15 @@ const Hero = () => {
           </button>
         </div>
       </div>
+      <div className='flex gap-5 pt-6'>
+         {socialMedia.map((platform, index) => (
+           <a key={index} className={`${platform.color} text-2xl mb-2 cursor-pointer`}>{platform.icon}</a>
+         ))}
+      </div>
     </div>
       {/* Image Section */}
-    <div className="rounded-full bg-customGradient mr-16 top-0 hidden md:block">
-       <Image src={BaseInfo.profilePic} alt={BaseInfo.name} width={300} height={300} className="rounded-full object-cover"/>
+    <div className="rounded-full w-80 h-96 bg-customGradient mr-16 top-0 hidden md:block">
+       <Image src={BaseInfo.profilePic} alt={BaseInfo.name} width={300} height={300} className="rounded-full object-cover h-full w-full"/>
     </div>
   </section>
   )

@@ -1,6 +1,7 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
-
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaYoutube,FaSnapchatGhost, FaPinterest, FaWhatsapp 
+} from "react-icons/fa";
 export const BaseInfo = {
     name: "Imtiaz Hasan",
     position: "Frontend Web Developer",
@@ -20,5 +21,13 @@ export const BaseInfo = {
     { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "text-teal-500", percentage: 80},
     { name: "Git", icon: <FaGitAlt />, color: "text-red-500", percentage: 70},
     { name: "Node.js", icon: <FaNodeJs />, color: "text-green-500", percentage: 50}
+  ];
+  
+ export const socialMedia = [
+    { name: "Facebook", icon: <FaFacebook />, color: "text-blue-600" },
+    { name: "Twitter", icon: <FaTwitter />, color: "text-blue-400" },
+    { name: "LinkedIn", icon: <FaLinkedin />, color: "text-blue-700" },
+    { name: "GitHub", icon: <FaGithub />, color: "text-gray-800" },
+    { name: "Pinterest", icon: <FaWhatsapp />, color: "text-green-600" }
   ];
   
