@@ -8,11 +8,11 @@ import SectionHeaderMobile from "./SectionHeaderMobile";
 
 const Project = () => {
   return (
-    <section className="bg-white py-60 flex" id="projects">
+    <section className="py-60 flex" id="projects">
       <SectionHeader headerTitle="My project" />
       <div className="container mx-auto text-center">
       <SectionHeaderMobile headerTitle="My project" />
-        <p className="md:text-2xl font-semibold text-gray-700 mb-8">
+        <p className="md:text-xl font-semibold text-gray-700 mb-8">
           "Explore a showcase of my featured projects, highlighting my skills
           and passion for building innovative solutions."
         </p>

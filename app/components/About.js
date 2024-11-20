@@ -6,7 +6,7 @@ import SectionHeaderMobile from "./SectionHeaderMobile";
 
 const About = () => {
   return (
-    <section className="bg-white py-20 md:py-60" id="about">
+    <section className="py-20 md:py-60" id="about">
          <SectionHeaderMobile headerTitle="about me"/>
         <div className="flex">  
       <div className="flex gap-10 md:gap-24 flex-col md:flex-row">

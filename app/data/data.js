@@ -69,3 +69,11 @@ export const BaseInfo = {
     },
   ];
   
+
+export  const hobbies =  [
+  { id: 1, name: "Gaming", icon: "🎮" },
+  { id: 2, name: "Traveling", icon: "✈️" },
+  { id: 3, name: "Gardening", icon: "🌱" },
+  { id: 4, name: "Playing", icon: "⚽" },
+  { id: 5, name: "Biking", icon: "🚴‍♂️" },
+];
