@@ -2,6 +2,7 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt } from "react-ico
 import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaYoutube,FaSnapchatGhost, FaPinterest, FaWhatsapp 
 } from "react-icons/fa";
+
 export const BaseInfo = {
     name: "Imtiaz Hasan",
     position: "Frontend Web Developer",
@@ -29,5 +30,42 @@ export const BaseInfo = {
     { name: "LinkedIn", icon: <FaLinkedin />, color: "text-blue-700" },
     { name: "GitHub", icon: <FaGithub />, color: "text-gray-800" },
     { name: "Pinterest", icon: <FaWhatsapp />, color: "text-green-600" }
+  ];
+  
+
+  export const projectData = [
+    {
+      id: 1,
+      name: "Electro-mart",
+      description: "An eCommerce platform built with React and Redux Toolkit, featuring a modern UI styled with Tailwind CSS. It includes secure user authentication via Firebase, real-time order storage, and seamless payment integration using Stripe.",
+      image: "/images/Electro-mart.jpg",
+      url: {
+        live: "",
+        github: "https://github.com/imtiazhasanBD/Electro-mart"
+      },
+      tools: ["react", "redux", "tailwind", "firebase", "stripe"]
+    },
+    {
+      id: 2,
+      name: "Disney Clone",
+      description: "A static Disney+ clone built with React and styled using Tailwind CSS, showcasing a responsive and visually appealing design. This project replicates the look and feel of the Disney+ platform, focusing on clean UI and layout structure.",
+      image: "/images/disney _clone.jpg",
+      url: {
+        live: "",
+        github: "https://github.com/imtiazhasanBD/disney-clone"
+      },
+      tools: ["react","tailwind"]
+    },
+    {
+      id: 3,
+      name: "Ecart-mart",
+      description: "My first eCommerce website, built with raw HTML, CSS, and JavaScript. It was my first step into web development, where I transformed my learning into a tangible project, igniting my passion for creating user-friendly, functional designs.",
+      image: "/images/Ecart-mart.jpg",
+      url: {
+        live: "https://imtiazhasanbd.github.io/MyEcommerce-cart/",
+        github: "https://github.com/imtiazhasanBD/MyEcommerce-cart"
+      },
+      tools: ["html", "css", "javascript"]
+    },
   ];
   
