@@ -12,7 +12,7 @@ const NavForMobile = ({ isOpen,setMenu, onClose }) => {
       <div className="h-full w-4/5 sm:w-3/5 flex flex-col justify-center text-white space-y-6 fixed bg-[#0f0715] z-[1006] ">
          {
             navLinks.map(navLink => (
-                <Link onClick={onClose} key={navLink.id} href={navLink.url} className="text-xl ml-12 pb-2 sm:text-xl active:text-customBlue">{navLink.label}</Link>
+                <Link onClick={onClose} key={navLink.id} href={`#${navLink.label.toLocaleLowerCase()}`} className="text-xl ml-12 pb-2 sm:text-xl active:text-customBlue">{navLink.label}</Link>
             ))
          }
       {/* Close button */}

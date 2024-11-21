@@ -6,7 +6,7 @@ import SectionHeaderMobile from "./SectionHeaderMobile";
 
 const Skill = () => {
   return (
-    <section className="md:flex" id="skills">
+    <section className="md:flex" id="skill">
         <SectionHeaderMobile headerTitle="my skills"/>
         <SectionHeader headerTitle="my skills"/>
       <div className="container mx-auto text-center">

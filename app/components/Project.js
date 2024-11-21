@@ -8,7 +8,7 @@ import SectionHeaderMobile from "./SectionHeaderMobile";
 
 const Project = () => {
   return (
-    <section className="py-60 flex" id="projects">
+    <section className="py-60 flex" id="portfolio">
       <SectionHeader headerTitle="My project" />
       <div className="container mx-auto text-center">
       <SectionHeaderMobile headerTitle="My project" />

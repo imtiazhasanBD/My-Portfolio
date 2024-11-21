@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Hobby from "./components/Hobby";
 import Project from "./components/Project";
@@ -18,7 +19,8 @@ export default function Home() {
         <Project/>
       {/* Hobby Section */}
         <Hobby/>
-        
+      {/* Contact Section */}
+      <Contact/>
     </div>
   );
 }

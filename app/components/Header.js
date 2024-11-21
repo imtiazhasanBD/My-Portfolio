@@ -19,7 +19,7 @@ export default function Header() {
             {navLinks.map((navlink) => (
               <a
                 key={navlink.id}
-                href="#"
+                href={`#${navlink.label.toLocaleLowerCase()}`}
                 className={`mx-6 hover:text-customBlue ${
                   navlink.label === "Resume"
                     ? "border-2 p-2 border-customBlue"
