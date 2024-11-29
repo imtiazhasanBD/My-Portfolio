@@ -8,17 +8,17 @@ import SectionHeaderMobile from "./SectionHeaderMobile";
 
 const Project = () => {
   return (
-    <section className="py-60 flex" id="portfolio">
+    <section className="py-20 md:py-60 flex" id="portfolio">
       <SectionHeader headerTitle="My project" />
       <div className="container mx-auto text-center">
       <SectionHeaderMobile headerTitle="My project" />
-        <p className="md:text-xl font-semibold text-gray-700 mb-8">
+        <p data-aos="zoom-in" className="md:text-xl font-semibold text-gray-700 mb-8">
           "Explore a showcase of my featured projects, highlighting my skills
           and passion for building innovative solutions."
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10">
-          {projectData.map((project) => (
-            <div key={project.id}   className="rounded-md p-2 shadow-md hover:shadow-lg transition-shadow duration-300 w-full">
+          {projectData.map((project,i) => (
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay={`${i * 150}`} key={project.id}   className="rounded-md p-2 shadow-md hover:shadow-lg transition-shadow duration-300 w-full">
               <div>
                 <Image src={project.image} width={400} height={100} alt="im" />
               </div>
@@ -32,8 +32,8 @@ const Project = () => {
                 </div>
                 <div className="space-x-2 opacity-55">
                   {
-                    project.tools.map(tool => (
-                      <span>{tool}</span>
+                    project.tools.map((tool,i) => (
+                      <span key={i}>{tool}</span>
                     ))
                   }
                 </div>

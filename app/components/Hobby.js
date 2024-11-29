@@ -5,8 +5,8 @@ import SectionHeaderMobile from './SectionHeaderMobile'
 
 const Hobby = () => {
   return (
-    <section id="hobbies" className="py-16 flex">
-    <div className="container mx-auto px-2 md:px-12 text-center">
+    <section id="hobbies" className="py-20 lg:pb-40 flex">
+    <div data-aos="fade-down" className="container mx-auto px-2 md:px-12 text-center">
     <SectionHeaderMobile headerTitle="My Hobbies" />
       <p className="text-lg font-semibold text-gray-700 mb-8">
         Outside of coding, here are some activities I enjoy that keep me inspired and balanced.

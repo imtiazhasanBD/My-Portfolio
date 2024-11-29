@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionHeaderMobile = ({headerTitle}) => {
   return (
-    <div className="relative flex items-center justify-center text-center md:hidden mb-10 z-0">
+    <div data-aos="fade-down" className="relative flex items-center justify-center text-center md:hidden mb-10 z-0">
     <span className="text-white uppercase text-sm font-bold bg-customGradient px-4 py-1 relative z-10">
       {headerTitle}
     </span>

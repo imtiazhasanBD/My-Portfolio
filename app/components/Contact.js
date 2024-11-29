@@ -5,11 +5,11 @@ import SectionHeaderMobile from './SectionHeaderMobile'
 
 const Contact = () => {
   return (
-        <section className="py-32 flex flex-col md:flex-row" id="contact">
+        <section className="py-20 md:py-32 flex flex-col md:flex-row" id="contact">
             <SectionHeader headerTitle="contact"/> 
             <SectionHeaderMobile headerTitle="contact"/> 
          <div className='flex gap-20 flex-col md:flex-row items-center justify-center'>
-         <div className="text-left space-y-10 text-gray-700">
+         <div data-aos="fade-left" data-aos-anchor-placement="top-center" className="text-left space-y-10 text-gray-700">
             <h2 className='text-2xl font-semibold'>Let's work together!</h2>
           <p className="text-lg">
           I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.
@@ -22,7 +22,7 @@ const Contact = () => {
           </a>
            </p>
         </div>
-        <div className='w-full space-y-4'>
+        <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="100" className='w-full space-y-4'>
              {
                 contactData.map((contact, i) => (
                     <div key={i} className='flex space-x-6 items-center'>

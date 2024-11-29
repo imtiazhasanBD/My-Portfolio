@@ -10,10 +10,10 @@ const Skill = () => {
         <SectionHeaderMobile headerTitle="my skills"/>
         <SectionHeader headerTitle="my skills"/>
       <div className="container mx-auto text-center">
-        <p className="md:text-xl font-semibold text-gray-700 mb-8">
+        <p data-aos="zoom-in" className="md:text-xl font-semibold text-gray-700 mb-8">
           Here are some of the tools and technologies I work with:
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+        <div data-aos="fade-up" data-aos-delay="100" className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
           {skills.map((skill, index) => (
             <div
               key={index}
