@@ -1,8 +1,9 @@
 import React from "react";
-import { BaseInfo } from "../data/data";
+import SectionHeaderMobile from "../SectionHeaderMobile";
+import { BaseInfo } from "@/app/data/data";
+import SectionHeader from "../SectionHeader";
 import Image from "next/image";
-import SectionHeader from "./SectionHeader";
-import SectionHeaderMobile from "./SectionHeaderMobile";
+
 
 const About = () => {
   return (

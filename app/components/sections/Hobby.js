@@ -1,7 +1,7 @@
 import React from 'react'
-import { hobbies } from '../data/data'
-import SectionHeader from './SectionHeader'
-import SectionHeaderMobile from './SectionHeaderMobile'
+import SectionHeader from '../SectionHeader'
+import SectionHeaderMobile from '../SectionHeaderMobile'
+import { hobbies } from '@/app/data/data'
 
 const Hobby = () => {
   return (

@@ -1,8 +1,9 @@
 import React from "react";
-import { skills } from "../data/data";
-import SectionHeader from "./SectionHeader";
-import CircularProgress from "./CircularProgress";
-import SectionHeaderMobile from "./SectionHeaderMobile";
+import SectionHeaderMobile from "../SectionHeaderMobile";
+import SectionHeader from "../SectionHeader";
+import { skills } from "@/app/data/data";
+import CircularProgress from "../CircularProgress";
+
 
 const Skill = () => {
   return (

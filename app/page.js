@@ -1,15 +1,15 @@
 "use client" 
 
 import { useEffect } from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Hero from "./components/Hero";
-import Hobby from "./components/Hobby";
-import Project from "./components/Project";
-import SectionHeaderMobile from "./components/SectionHeaderMobile";
-import Skill from "./components/Skill";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Hero from "./components/sections/Hero";
+import About from "./components/sections/About";
+import Skill from "./components/sections/Skill";
+import Project from "./components/sections/Project";
+import Hobby from "./components/sections/Hobby";
+import Contact from "./components/sections/Contact";
+
 
 export default function Home() {
   useEffect(() => {

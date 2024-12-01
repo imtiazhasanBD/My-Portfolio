@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 import { ImNewTab } from "react-icons/im";
 import { FaGithub } from "react-icons/fa";
-import SectionHeader from "./SectionHeader";
-import { projectData } from "../data/data";
-import SectionHeaderMobile from "./SectionHeaderMobile";
+import SectionHeader from "../SectionHeader";
+import SectionHeaderMobile from "../SectionHeaderMobile";
+import { projectData } from "@/app/data/data";
 
 const Project = () => {
   return (
@@ -13,8 +13,8 @@ const Project = () => {
       <div className="container mx-auto text-center">
       <SectionHeaderMobile headerTitle="My project" />
         <p data-aos="zoom-in" className="md:text-xl font-semibold text-gray-700 mb-8">
-          "Explore a showcase of my featured projects, highlighting my skills
-          and passion for building innovative solutions."
+          Explore a showcase of my featured projects, highlighting my skills
+          and passion for building innovative solutions.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10">
           {projectData.map((project,i) => (

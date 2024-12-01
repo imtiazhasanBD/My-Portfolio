@@ -1,8 +1,8 @@
 import React from 'react'
-import { BaseInfo, socialMedia } from '../data/data'
 import Image from 'next/image'
-import Particle from './Particle'
-import AutoText from './Typewriter'
+import Particle from '../Particle'
+import AutoText from '../Typewriter'
+import { BaseInfo, socialMedia } from '@/app/data/data'
 
 const Hero = () => {
   return (

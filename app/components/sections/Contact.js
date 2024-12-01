@@ -1,7 +1,7 @@
 import React from 'react'
-import { contactData } from '../data/data'
-import SectionHeader from './SectionHeader'
-import SectionHeaderMobile from './SectionHeaderMobile'
+import SectionHeader from '../SectionHeader'
+import SectionHeaderMobile from '../SectionHeaderMobile'
+import { contactData } from '@/app/data/data'
 
 const Contact = () => {
   return (
@@ -10,9 +10,9 @@ const Contact = () => {
             <SectionHeaderMobile headerTitle="contact"/> 
          <div className='flex gap-20 flex-col md:flex-row items-center justify-center'>
          <div data-aos="fade-left" data-aos-anchor-placement="top-center" className="text-left space-y-10 text-gray-700">
-            <h2 className='text-2xl font-semibold'>Let's work together!</h2>
+            <h2 className='text-2xl font-semibold'>Lets work together!</h2>
           <p className="text-lg">
-          I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.
+          I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just say hi to me.
           </p>
            <p>
            <a href="mailto:your-email@example.com"

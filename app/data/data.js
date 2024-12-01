@@ -28,7 +28,7 @@ export const BaseInfo = {
   aboutTitle: "let’s Introduce about myself",
   aboutMe:
     "Hello! My name is <b>Imtiaz Hasan,</b> and I am a passionate front-end developer with expertise in modern web technologies including <b>HTML, CSS, JavaScript, Tailwind CSS, React, Redux, Firebase, Next.js, and TypeScript.</b> I am currently pursuing a Bachelor of Science in Computer Science and Engineering (BSc in CSE) at Bangladesh University. <br/> <br/> As I near the completion of my studies, I am actively seeking job opportunities to apply my skills, contribute to impactful projects, and grow as a professional. I am dedicated to crafting dynamic, responsive, and user-friendly web experiences. Let's build something amazing together!",
-  profilePic: "/images/hero.png",
+  profilePic: "/images/hero.webp",
   aboutPic: "/images/about_me.jpg",
 };
 
