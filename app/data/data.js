@@ -64,11 +64,36 @@ export const skills = [
 ];
 
 export const socialMedia = [
-  { name: "Facebook", icon: <FaFacebook />, color: "text-blue-600" },
-  { name: "Twitter", icon: <FaTwitter />, color: "text-blue-400" },
-  { name: "LinkedIn", icon: <FaLinkedin />, color: "text-blue-700" },
-  { name: "GitHub", icon: <FaGithub />, color: "text-gray-800" },
-  { name: "Pinterest", icon: <FaWhatsapp />, color: "text-green-600" },
+  { 
+    name: "LinkedIn", 
+    icon: <FaLinkedin />, 
+    color: "text-blue-700", 
+    link: "https://linkedin.com/in/imtiazhasanbd" 
+  },
+  { 
+    name: "GitHub", 
+    icon: <FaGithub />, 
+    color: "text-gray-800", 
+    link: "https://github.com/imtiazhasanBD" 
+  },
+  { 
+    name: "WhatsApp", 
+    icon: <FaWhatsapp />, 
+    color: "text-green-600", 
+    link: "https://wa.me/01782638383?text=Hello%20there!%20I'm%20interested%20in%20your%20services" 
+  },
+  { 
+    name: "Facebook", 
+    icon: <FaFacebook />, 
+    color: "text-blue-600", 
+    link: "https://www.facebook.com/bd.imtiazkhan" 
+  },
+  { 
+    name: "Twitter", 
+    icon: <FaTwitter />, 
+    color: "text-blue-400", 
+    link: "https://x.com/imtiazkhan100" 
+  }
 ];
 
 export const projectData = [

@@ -32,7 +32,7 @@ const Hero = () => {
       </div>
       <div className='flex gap-5 pt-6'>
          {socialMedia.map((platform, index) => (
-           <a data-aos="fade-left" data-aos-delay="400" key={index} className={`${platform.color} text-2xl mb-2 cursor-pointer transform transition-transform duration-300 hover:scale-150`}>{platform.icon}</a>
+           <a href={platform.link} target='_blank' data-aos="fade-left" data-aos-delay="400" key={index} className={`${platform.color} text-2xl mb-2 cursor-pointer transform transition-transform duration-300 hover:scale-150`}>{platform.icon}</a>
          ))}
       </div>
     </div>

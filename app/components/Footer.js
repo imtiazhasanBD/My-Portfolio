@@ -12,6 +12,8 @@ const Footer = () => {
         <div className="flex justify-center gap-8 md:text-xl text-lg">
           {socialMedia.map((platform, i) => (
             <a
+              href={platform.link} 
+              target="_blank"
               key={i}
               className="text-gray-500 hover:text-gray-700 transition-colors cursor-pointer"
             >

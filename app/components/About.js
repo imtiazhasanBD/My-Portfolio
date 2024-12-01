@@ -19,9 +19,9 @@ const About = () => {
             <Image
               src={BaseInfo.aboutPic}
               alt="about-picture"
-              layout="fill"
-              objectFit="contain"
-              className="relative w-full h-full object-contain rounded-lg z-20"
+              width={300}
+              height={300}
+              className="relative w-full h-full object-cover rounded-lg z-20"
             />
             <div className="absolute w-full h-full bg-customGradient top-[-1rem] right-[-1rem] rounded-lg z-10"></div>
           </div>

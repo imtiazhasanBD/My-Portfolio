@@ -20,10 +20,10 @@ export default function Header() {
   useEffect(() => {
     if (isMobileMenuOpen) {
       // Disable scrolling
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
       // Enable scrolling
-      document.body.style.overflow = '';
+      document.body.style.overflow = "";
     }
   }, [isMobileMenuOpen]);
 
@@ -32,19 +32,29 @@ export default function Header() {
       <header className="bg-white px-6 lg:px-16 py-3 w-full sticky top-0 shadow z-40">
         <div className="container mx-auto flex justify-between items-center font-bold">
           <Link href="/" className="">
-          <Image  src="/logo.png" width={55} height={55} alt="logo" objectFit="cover" />      
+            <Image
+              src="/logo.png"
+              width={55}
+              height={55}
+              alt="logo"
+              className="object-cover"
+            />
           </Link>
           <nav className="font-semibold hidden lg:block">
             {navLinks.map((navlink) => (
               <button
-                onClick={() => scrollToSection(navlink.label.toLocaleLowerCase())}
+                onClick={() =>
+                  scrollToSection(navlink.label.toLocaleLowerCase())
+                }
                 key={navlink.id}
                 className={`mx-6 hover:text-customBlue`}
               >
                 {navlink.label.toLocaleUpperCase()}
               </button>
             ))}
-            <a className="py-3 px-8 bg-customGradient text-white rounded-md hover:text-black">RESUME</a>
+            <a className="py-3 px-8 bg-customGradient text-white rounded-md hover:text-black">
+              RESUME
+            </a>
           </nav>
 
           <HiMiniBars3BottomRight
@@ -55,7 +65,7 @@ export default function Header() {
       </header>
       <NavForMobile
         isOpen={isMobileMenuOpen}
-        setMenu= {setMobileMenuOpen}
+        setMenu={setMobileMenuOpen}
         onClose={() => setMobileMenuOpen(false)}
       />
     </>
